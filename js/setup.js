@@ -12,21 +12,24 @@ var wizardCoatColors = [
   'rgb(146, 100, 161)', 
   'rgb(56, 159, 117)', 
   'rgb(215, 210, 55)', 
-  'rgb(0, 0, 0)'];
+  'rgb(0, 0, 0)'
+];
 var wizardEyes = wizard.querySelector('#wizard-eyes');
 var wizardEyesColors = [
   'black', 
   'red', 
   'blue', 
   'yellow', 
-  'green'];
+  'green'
+];
 var setupFireballWrap = document.querySelector('.setup-fireball-wrap');
 var setupFireballWrapColors = [
   '#ee4830', 
   '#30a8ee', 
   '#5ce6c0', 
   '#e848d5', 
-  '#e6e848'];
+  '#e6e848'
+];
 
 setupOpen.addEventListener('click', function () {
   setup.classList.remove('invisible');
