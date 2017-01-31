@@ -40,7 +40,7 @@ setupClose.addEventListener('click', function () {
 });
 
 nameField.required = true;
-nameField.maxLength = '50';
+nameField.maxLength = 50;
 
 wizardCoat.addEventListener('click', function () {
   wizardCoat.style.fill = wizardCoatColors[Math.floor(Math.random() * wizardCoatColors.length)];
