@@ -7,27 +7,27 @@ var nameField = document.querySelector('.setup-user-name');
 var wizard = document.querySelector('#wizard');
 var wizardCoat = wizard.querySelector('#wizard-coat');
 var wizardCoatColors = [
-  'rgb(101, 137, 164)', 
-  'rgb(241, 43, 107)', 
-  'rgb(146, 100, 161)', 
-  'rgb(56, 159, 117)', 
-  'rgb(215, 210, 55)', 
+  'rgb(101, 137, 164)',
+  'rgb(241, 43, 107)',
+  'rgb(146, 100, 161)',
+  'rgb(56, 159, 117)',
+  'rgb(215, 210, 55)',
   'rgb(0, 0, 0)'
 ];
 var wizardEyes = wizard.querySelector('#wizard-eyes');
 var wizardEyesColors = [
-  'black', 
-  'red', 
-  'blue', 
-  'yellow', 
+  'black',
+  'red',
+  'blue',
+  'yellow',
   'green'
 ];
 var setupFireballWrap = document.querySelector('.setup-fireball-wrap');
 var setupFireballWrapColors = [
-  '#ee4830', 
-  '#30a8ee', 
-  '#5ce6c0', 
-  '#e848d5', 
+  '#ee4830',
+  '#30a8ee',
+  '#5ce6c0',
+  '#e848d5',
   '#e6e848'
 ];
 
